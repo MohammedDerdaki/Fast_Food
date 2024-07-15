@@ -8,11 +8,11 @@
 }
 header>#logo{
     display: inline-flex;
-    width: 33%;
+    width: 20%;
 }
 header>nav{
     display: inline-flex;
-    width: 33%;
+    width: 50%; 
 }
 nav>ul>li{
     display: inline;
@@ -20,7 +20,24 @@ nav>ul>li{
 }
 header>#searchBar{
     display: inline-flex;
-    width: 30%;
+    width: 25%;
+}
+sup{
+    color: aliceblue;
+    background-color: red;
+    padding: 3px;
+    border-radius: 100%;
+    font-weight: bolder;
+    box-shadow: 5px red;
+    opacity: 0.50;
+}
+#inputBar{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 5px 10px;
+}
+#inputBar>input{
+    border: none;
 }
 main{
     align-content: center;
@@ -30,7 +47,8 @@ div{
     border: 1px solid black;
 }
 #rightSection{
-    width: 50%;
+    display: inline;
+    float: right;
 }
 #rightSection>h1{
     display: inline;
@@ -61,9 +79,14 @@ div{
     background-color: whitesmoke;
 }
 #leftSection{
-    width: 50%;
+    display: inline;
+    float: left;
 }
 #food{
     width: 500px;
     height: auto;
+}
+@media screen and (max-width: 769px) {
+    #rightSection{width: 100%;}
+    #leftSection{width: 100%;}
 }
