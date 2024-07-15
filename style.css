@@ -1,7 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+:root{
+    /* --width_screen: 100%; */
+}
 *{
     font-family: "Ubuntu", sans-serif;
+    margin: 0;
+}
+header>#logo{
+    display: inline-flex;
+    width: 33%;
+}
+header>nav{
+    display: inline-flex;
+    width: 33%;
+}
+nav>ul>li{
+    display: inline;
+    list-style: none;
+}
+header>#searchBar{
+    display: inline-flex;
+    width: 30%;
+}
+main{
+    align-content: center;
 }
 div{
-    
+    display: inline-block;
+    border: 1px solid black;
+}
+#rightSection{
+    width: 50%;
+}
+#rightSection>h1{
+    display: inline;
+    font-size: 600%;
+    color: orange;
+}
+#rightSection>h2{
+    display: inline-block;
+    font-size: 200%;
+}
+#orderBtn{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+#watch{
+    background-color: whitesmoke;
+    color: black;
+    padding: 7px 10px 10px 10px;
+    border: 1px solid black;
+    border-radius: 16px;
+}
+#watchBtn{
+    border: 1px solid whitesmoke;
+    color:black;
+    background-color: whitesmoke;
+}
+#leftSection{
+    width: 50%;
+}
+#food{
+    width: 500px;
+    height: auto;
 }
